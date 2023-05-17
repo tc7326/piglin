@@ -4,7 +4,7 @@
 
 # 所用框架
 
-## web框架：[Gin]([https://gin-gonic.com/)
+## web框架：[Gin](https://gin-gonic.com/)
 
 ```go
 go get -u github.com/gin-gonic/gin
@@ -21,3 +21,22 @@ go get -u gorm.io/gorm
 ```go
 go get github.com/redis/go-redis/v9
 ```
+
+# API介绍
+
+使用Rest风格 和 基于Auth2.0的权限校验
+
+## 响应基类
+
+```json
+{
+  "code": 0,
+  "err": "err msg",
+  "result": {
+    "key1": "value1",
+    "key2": "value2",
+  }
+}
+```
+
+## 

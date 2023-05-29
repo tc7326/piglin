@@ -22,6 +22,20 @@ go get -u gorm.io/gorm
 go get github.com/redis/go-redis/v9
 ```
 
+# MVC
+
+## Controller 层
+
+主要做鉴权、基本数据校验 和 构造业务层需要的数据 比如校验用户昵称长度等
+
+## Service 层
+
+具体的业务实现 比如 新增用户这样一个业务的实现逻辑
+
+## DAO 层
+
+使用MySQL持久化数据 最基本的增删改查 比如向数据库的用户表插入一条用户数据
+
 # API介绍
 
 使用Rest风格 和 基于OAuth2.0的权限校验

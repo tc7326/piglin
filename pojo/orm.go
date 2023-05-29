@@ -1,4 +1,4 @@
-package main
+package pojo
 
 // User 用户表
 type User struct {

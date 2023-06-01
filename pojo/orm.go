@@ -8,6 +8,12 @@ type User struct {
 	Avatar   string `json:"avatar,omitempty" gorm:"null;type:varchar(255)"`                  //头像 空 varchar
 }
 
+// Email 邮箱表
+type Email struct {
+	ID    int32  ``
+	Email string ``
+}
+
 // Album 相册表
 type Album struct {
 	ID     int32  `json:"id,omitempty" gorm:"primaryKey;autoIncrement:true;type:int"`       //相册id 主键 自增 int
